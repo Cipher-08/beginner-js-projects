@@ -10,6 +10,9 @@ const getCurrentTime = () => {
 
 const displayClock = () => {
   // appends clock digits to main div in window
+  getCurrentTime();
+   standardOrTwentyFourHour();
+  
 }
 
 displayClock();
